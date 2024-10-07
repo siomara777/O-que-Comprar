@@ -1,0 +1,45 @@
+header {
+    margin: 0 auto;
+    width: max-content;
+    padding-top: 40px;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header div img {
+    width: 40px;
+    height: auto;
+}
+
+header div h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+header p {
+    padding-top: 8px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    header div img {
+        width: 32px;
+        height: auto;
+    }
+
+    header div h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}

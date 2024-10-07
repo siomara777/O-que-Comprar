@@ -1,0 +1,23 @@
+<div class="container">
+  <app-header></app-header>
+
+  <main>
+    <app-add-new-item (newItem)="addNewItem($event)"></app-add-new-item>
+
+    <div class="shopping-list-container">
+      @for (item of items; track item.itemName; let id = $index) {
+        <app-shopping-list-item
+          [itemName]="item.itemName"
+          [isBought]="item.isBought"
+          (updateName)="handleUpdateName(id, $event)"
+          (toggleBought)="handleToggleBought(id, $event)"
+          (deleteItem)="handleDeleteItem(id)"
+        ></app-shopping-list-item>
+      }
+    </div>
+
+  </main>
+    
+</div>
+
+<router-outlet />

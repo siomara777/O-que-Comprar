@@ -1,0 +1,11 @@
+<form (submit)="handleAddNewItem($event)">
+  <input 
+    type="text"
+    placeholder="O que deseja comprar?" 
+    [formControl]="nameControl">
+  <hr>
+  <button type="submit">
+    Adicionar
+    <img src="../../assets/icons/arrow-right.svg" alt="">
+  </button>
+</form>
