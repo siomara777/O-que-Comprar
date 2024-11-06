@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "José",
+      "email": "jose@exemplo.com"
+    },
+    {
+      "id": "2",
+      "name": "Reynaldo",
+      "email": "naldo@exemplo.com"
+    },
+    {
+      "id": "google-oauth2|117836440895265337003",
+      "name": "Siomara Andrade Mota",
+      "email": "mix.total.p.n@gmail.com"
+    },
+    {
+      "id": "google-oauth2|107072606726686489082",
+      "name": "Manoel Filho Neto",
+      "email": "manoel.f.neto1956@gmail.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "3658",
+      "itemName": "Arroz",
+      "isBought": true,
+      "userId": 1
+    },
+    {
+      "id": "c4e7",
+      "itemName": "Macarrão",
+      "isBought": true,
+      "userId": 1
+    },
+    {
+      "id": "3ab0",
+      "itemName": "Carne",
+      "isBought": true,
+      "userId": 1
+    },
+    {
+      "id": "eece",
+      "itemName": "Açucar",
+      "isBought": true,
+      "userId": "google-oauth2|117836440895265337003"
+    },
+    {
+      "id": "2240",
+      "itemName": "Vinagre",
+      "isBought": true,
+      "userId": "google-oauth2|117836440895265337003"
+    },
+    {
+      "id": "29d8",
+      "itemName": "Filé de frango",
+      "isBought": false,
+      "userId": "google-oauth2|117836440895265337003"
+    },
+    {
+      "id": "4cf4",
+      "itemName": "Feijão",
+      "isBought": false,
+      "userId": "google-oauth2|117836440895265337003"
+    },
+    {
+      "id": "b478",
+      "itemName": "Queijo",
+      "isBought": true,
+      "userId": "google-oauth2|117836440895265337003"
+    },
+    {
+      "id": "74b8",
+      "itemName": "Café",
+      "isBought": false,
+      "userId": "google-oauth2|107072606726686489082"
+    },
+    {
+      "id": "fa85",
+      "itemName": "Detergente",
+      "isBought": false,
+      "userId": "google-oauth2|107072606726686489082"
+    },
+    {
+      "id": "84dd",
+      "itemName": "Detergente",
+      "isBought": true,
+      "userId": "google-oauth2|117836440895265337003"
+    }
+  ]
+}
