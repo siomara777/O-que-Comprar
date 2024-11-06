@@ -1,0 +1,17 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.error-message-container {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h1 span {
+    color: var(--secondary-color);
+}
